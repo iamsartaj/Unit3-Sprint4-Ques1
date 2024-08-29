@@ -8,64 +8,225 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-        font-family: "Open Sans", system-ui;
-      }
-      #sec-1 {
-        height: 120vh;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      #sec-1-left,
-      #sec-3-left,
-      #sec-5-left {
-        width: 50%;
-        text-align: center;
-      }
-      #sec-2-left,
-      #sec-4-left {
-        width: 50%;
-      }
-
-      #sec-1-right,
-      #sec-3-right,
-      #sec-5-right {
-        width: 50%;
-      }
-      #sec-2-right,
-      #sec-4-right {
-        width: 50%;
-        padding-left: 120px;
-      }
-
-      #sec-1 img {
-        height: 800px;
-      }
-      h1 {
-        font-size: 42px;
-        margin-bottom: 15px;
-      }
-      span {
-        background-color: #405bd3;
-        width: 100px;
-        height: 10px;
-        display: inline-block;
-        margin-bottom: 40px;
-      }
-      p {
-        font-size: 22px;
-        color: #858585;
-        width: 450px;
-        line-height: 30px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+<!-- Sartaj's code  -->
+    <main>
+      <div class="container">
+          <nav>
+              <img src="https://ali-global-cdn.hellotalk8.com/www/image/logo/HelloTalk-1@2.png?v=2" alt=""/>
+              <div>
+                <a href="">About</a>
+                <a href="">HelloTalk Web</a>
+                <a href="">English <i class="fa-solid fa-chevron-down" style="color: #ffffff"></i
+                ></a>
+              </div>
+            </nav>
+      
+            <div id="navmain">
+              <div>
+                  <img src="./img/Main.webp" alt="">
+              </div>
+              <div>
+                  <h1>Talk to the World</h1>
+                  <p>Learn a language for free by chatting with native speakers around the world!</p>
+                  <div id="fir">
+                      <img src="./img/main_right_mc.png" alt="">
+                      <h2>150+</h2>
+                      <h4>Languages supported</h4>
+                  </div>
+                  <div id="sec">
+                      <img src="./img/main_right_android.png" alt="">
+                      <h2>50+ million</h2>
+                      <h4>Members to chat with</h4>
+                  </div>
+              </div>
+            </div>
+      </div>
+    
+  </main>
+
+
+  <section id="gridboxes">
+    <h1>The UItimate Language Exchange</h1>
+    <h2>Learn a language, explore new cultures, and make friends around the world</h2>
+    <div id="box">
+      <div>
+        <img src="https://ali-global-cdn.hellotalk8.com/wp-content/uploads/2017/07/worldwide-icon.svg" alt="">
+        <h3>Worldwide Community</h3>
+        <p>Native speakers teach you their language, while you teach them yours. Millions of people use HelloTalk to practice 150+ languages.</p>
+      </div>
+      <div>
+        <img src="https://ali-global-cdn.hellotalk8.com/wp-content/uploads/2017/07/text-voice-video-icon.svg" alt="">
+        <h3>Text, Voice, Video, and More</h3>
+        <p>Chat with language partners through text and voice messages, stickers, voice and video calls, and interactive Voicerooms and Lives.</p>
+      </div>
+      <div>
+        <img src="https://ali-global-cdn.hellotalk8.com/wp-content/uploads/2017/07/translation-icon.svg" alt="">
+        <h3>Intuitive Language Tools</h3>
+        <p>Built-in aids for translation, pronunciation, transliteration, and corrections make conversations run smoothly. Learning is as simple as chatting!</p>
+      </div>
+      <div>
+        <img src="https://ali-global-cdn.hellotalk8.com/wp-content/uploads/2017/07/public-icon.svg" alt="">
+        <h3>Moments</h3>
+        <p>Engage with the entire community by posting Moments. The public posts are seen by all native speakers of your target language and are ideal for asking questions</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <div class="language">
+      <p class="heading">Language Exchange</p>
+      <p id="txt">Find the perfect language partner</p>
+  
+      <div class="cards">
+        <div class="card">
+          <div class="image-container">
+            <img class="citizen" src="./img/1.png" alt="image">
+            <img class="citizenship" src="./img/Korea@2x.png" alt="">
+            <div class="card_detail">
+              <p class="name">이수채</p>
+              <p class="intreset">Wants to learn: English</p>
+              <p class="skill">Can teach: 한국어</p>
+            </div>
+          </div>
+          <button class="btn1"><i class="fa-regular fa-comment-dots"></i> Start Chatting</button>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img class="citizen" src="./img/2.png" alt="image">
+            <img class="citizenship" src="./img/Germany@2x.png" alt="">
+            <div class="card_detail">
+              <p class="name">Elias</p>
+              <p class="intreset">Wants to learn: 中文</p>
+              <p class="skill">Can teach: Deutsch</p>
+            </div>
+          </div>
+          <button class="btn1"><i class="fa-regular fa-comment-dots"></i> Start Chatting</button>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img class="citizen" src="./img/3.png" alt="image">
+            <img class="citizenship" src="./img/Korea@2x.png" alt="">
+            <div class="card_detail">
+              <p class="name">Rose</p>
+              <p class="intreset"> Wants to learn: Русский язык
+              </p>
+              <p class="skill">Can teach:
+                Français</p>
+            </div>
+          </div>
+          <button class="btn1"><i class="fa-regular fa-comment-dots"></i> Start Chatting</button>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img class="citizen" src="./img/4.png" alt="image">
+            <img class="citizenship" src="./img/Spain@2x.png" alt="">
+            <div class="card_detail">
+              <p class="name">León
+              </p>
+              <p class="intreset"> Wants to learn:
+                日本語
+              </p>
+              <p class="skill"> Can teach:
+                Español</p>
+            </div>
+          </div>
+          <button class="btn1"><i class="fa-regular fa-comment-dots"></i> Start Chatting</button>
+        </div>
+  
+        <div class="card">
+          <div class="image-container">
+            <img class="citizen" src="./img/5.png" alt="image">
+            <img class="citizenship" src="./img/China@2x.png" alt="">
+            <div class="card_detail">
+              <p class="name">范明
+              </p>
+              <p class="intreset"> Wants to learn:
+                Deutsch
+              </p>
+              <p class="skill">Can teach:
+                中文</p>
+            </div>
+          </div>
+          <button class="btn1"><i class="fa-regular fa-comment-dots"></i> Start Chatting</button>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img class="citizen" src="./img/6.png" alt="image">
+            <img class="citizenship" src="./img/USA@2x.png" alt="">
+            <div class="card_detail">
+              <p class="name">Amy
+              </p>
+              <p class="intreset">Wants to learn:
+                한국어</p>
+              <p class="skill">
+                Can teach:
+                English</p>
+            </div>
+          </div>
+          <button class="btn1"><i class="fa-regular fa-comment-dots"></i> Start Chatting</button>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img class="citizen" src="./img/7.png" alt="image">
+            <img class="citizenship" src="./img/Russia@2x.png" alt="">
+            <div class="card_detail">
+              <p class="name">Солнце
+              </p>
+              <p class="intreset"> Wants to learn:
+                Français
+              </p>
+              <p class="skill"> Can teach:
+                Русский язык</p>
+            </div>
+          </div>
+          <button class="btn1"><i class="fa-regular fa-comment-dots"></i> Start Chatting</button>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img class="citizen" src="./img/8.png" alt="image">
+            <img class="citizenship" src="./img/Korea@2x.png" alt="">
+            <div class="card_detail">
+              <p class="name">桜子
+              </p>
+              <p class="intreset"> Wants to learn:
+                English
+              </p>
+              <p class="skill">Can teach:
+                日本語</p>
+            </div>
+          </div>
+          <button class="btn1"><i class="fa-regular fa-comment-dots"></i> Start Chatting</button>
+        </div>
+  
+      </div>
+  
+    </div>
+  
+    <div class="speakers">
+      <p class="heading">Connect with native speakers to practice languages</p>
+  
+      <div class="exchange">
+        <p class="language_exchange exchange1">English Language Exchange</p>
+        <p class="language_exchange exchange2">Korean Language Exchange</p>
+        <p class="language_exchange exchange3">Chinese Language Exchange</p>
+        <p class="language_exchange exchange4">Japanese Language Exchange</p>
+        <p class="language_exchange exchange5">Spanish Language Exchange</p>
+        <p class="language_exchange exchange6">French Language Exchange</p>
+        <p class="language_exchange exchange7">Germen Language Exchange</p>
+        <p class="language_exchange exchange8">Italian Language Exchange</p>
+        <p class="language_exchange exchange9">Russian Language Exchange</p>
+        <p class="language_exchange exchange10">Portuguese Language Exchange</p>
+        <p class="language_exchange exchange11">Turkish Language Exchange</p>
+        <p class="language_exchange exchange12">Find partners to practice with >></p>
+      </div>
+    </div>
+
+<!-- Manohar's code -->
+
     <div id="sec-1">
       <div id="sec-1-left">
         <img
@@ -155,7 +316,7 @@
       </div>
       <div id="sec-4-left">
         <img
-        src=https://ali-global-cdn.hellotalk8.com/www/image/phone-4.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+        src="https://ali-global-cdn.hellotalk8.com/www/image/phone-4.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
         alt="">
       </div>
     </div>
@@ -182,4 +343,6 @@
       </div>
     </div>
   </body>
+  <script src="https://kit.fontawesome.com/d078fc0e6b.js" crossorigin="anonymous"
+  ></script>
 </html>
