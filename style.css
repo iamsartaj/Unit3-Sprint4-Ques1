@@ -543,93 +543,110 @@ nav>div>a{
   
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
   .review-container{
-      width: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding-top: 5em;
-      padding-bottom: 8em;
-      background-color: rgb(249, 249, 249);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+    padding-bottom: 8em;
+    background-color: rgb(249, 249, 249);
   }
   .review-head{
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      line-height: 3.5em;
-      width: 100%;
-      padding: 0 0 1.8em 0;
-      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 3.5em;
+    width: 100%;
+    padding: 0 0 1.8em 0;
+    box-sizing: border-box;
+    
   }
   .review-head  .header{
-      font-size: 2em;
-      font-weight: 700;  
+    width: 100%;
+    text-align: center;
+    line-height: 1em;
+    padding-bottom: 1em;
+    font-size: 2em;
+    font-weight: 700;  
   }
   .review-head .follow-up{
-      color: rgb(133, 133, 133);
-      font-size: 1.3em;
+    
+    width: 100%;
+    box-sizing: border-box;
+    color: rgb(133, 133, 133);
+    font-size: 1.3em;
   }
   .review-grids{
-      display: flex;
-      padding-top: 4.8em;
-      align-content: center;
-      width: 100%;
-      justify-content: center;
-  }
-  .review-card{
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-      display: flex;
-      justify-content: center;
-     align-items: center;
-      flex-direction: column;
-      box-sizing: border-box;
-      width: 22em;
-      border-radius: 10px;
-      padding: 2em;
+    display: flex;
+    padding-top: 4.8em;
+    box-sizing: border-box;
+    
+    align-content: center;
+    width: 100%;
+    justify-content: center;
   }
   .card-wrapper{
-      width:auto;
-      box-sizing: content-box;
-      
-      display: grid;
-      row-gap: 3em;
-      column-gap: 2em;
-      grid-template-columns: repeat(3,1fr);
+    width:auto;
+    box-sizing: content-box;
+    padding: 0 2em;
+    display: grid;
+    row-gap: 3em;
+    column-gap: 2em;
+    grid-template-columns: repeat(3,1fr);
   }
-  .review-card .stars{
+  .review-card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      box-sizing: border-box;
+      width: auto;
+      h
+      border-radius: 10px;
+      padding: 1.2em;
+    }
+    .review-card .stars{
       
       /* border: 1px solid orange; */
-     display: block;
-     width: 100%;
-     text-align: center;
-     color: orange;
-     font-size: 1.5em;
-     line-height: 1.5em;
-     margin: .5em 0;
-     flex-direction: column;
-     
-  }
-  .review-card .review-content {
+      display: block;
+      width: auto;
       text-align: center;
-  }
-  .review-card .review-content .review-text-head{
+      color: orange;
+      font-size: 1.5em;
+      line-height: 1.5em;
+      margin: .5em 0;
+      flex-direction: column;
+      
+    }
+    .review-card .review-content {
+      text-align: center;
+      width: auto;
+      box-sizing: border-box;
+    }
+    .review-card .review-content .review-text-head{
       font-weight: 700;
       font-size: 1.1em;
       line-height: 1.3em;
       margin-bottom: 1.8em ;
       
-  }
-  .review-card .review-content .text-para{
+    }
+    .review-card .review-content .text-para{
       color: rgb(97, 97, 97);
       margin-bottom: 1em;
-  }
-  .review-card .review-content .author-review{
+      font-size: 1.2em;
+      
+    }
+    .review-card .review-content .author-review{
       font-size: .9em;
       color: rgb(133, 133, 133);
-  }
-
-  /* pre-footer  */
-  .pre-footer{
+    }
+    
+    /* pre-footer  */
+    .pre-footer{
       border: 1px solid black;
       width: auto;
       display: flex;
@@ -639,24 +656,25 @@ nav>div>a{
       background-position: center; 
       background-repeat: no-repeat; 
       padding: 5em;
-  }
-  .top-pre-footer{
+    }
+    .top-pre-footer{
       width: 100%;
       text-align: center;
-  }
-  .top-pre-footer h2{
+    }
+    .top-pre-footer h2{
       color: white;
       font-size: 1.9em;
       line-height: 2.3em;    
-  }
-  .top-pre-footer p {
+    }
+    .top-pre-footer p {
+      width: 100%;
       color: aliceblue;
       font-size: 1.3em;
       margin-bottom: 1.5em;
       font-weight: 500;
-  }
-  
-  .bottom-pre-footer {
+    }
+    
+    .bottom-pre-footer {
       width: auto;
       box-sizing: border-box;
       display: flex;
@@ -665,8 +683,8 @@ nav>div>a{
       padding: .5em;
       
       
-  }
-  .bottom-pre-footer  a{
+    }
+    .bottom-pre-footer  a{
       text-decoration: none;
       color: white;
       border: 1.3px solid white;
@@ -676,34 +694,38 @@ nav>div>a{
       margin: 0 1em;
       font-weight: 600;
       transition: background-color 0.4s ease-out;
-  }
-  .bottom-pre-footer  a:hover{
+    }
+    .bottom-pre-footer  a:hover{
       background-color: rgb(84, 199, 80);
-  }
-  /* pre footer ends here */
-
-  /* footer starts here */
-  .footer{
+    }
+    /* pre footer ends here */
+    
+    /* footer starts here */
+    .footer{
       width: auto;
       padding: 7em 25em;
-  }
-  .footer .wrapper{
+    }
+    .footer .wrapper{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: auto;
       box-sizing: border-box;
-  }
-  .footer .wrapper ul{
+      padding: 0 1em;
+      
+      /*
+      
+      
+      */
+    }
+    .footer .wrapper ul{
       display: flex;
-      align-items: center;
-      width: 100%;
       justify-content: left;
-      list-style: none;
-  }
-  .left-content{
+      list-style: none;      
+      
+    }
+    .left-content{
+      /* border: 1px solid red; */
       display: flex;
-
       flex-direction: row;
       justify-content: center;
       align-items: center;
