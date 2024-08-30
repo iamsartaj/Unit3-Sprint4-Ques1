@@ -70,7 +70,7 @@ main{
 main>.container{
     margin: auto;
     width: 80vw;
-    height: 115vh;
+    height: auto;
 }
 
 nav{
@@ -527,6 +527,201 @@ nav>div>a{
       font-size: 16px;
     }
   
+  }
+
+
+
+
+
+
+  /* 
+  
+  Amaan's code
+  
+  */
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  .review-container{
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 5em;
+      padding-bottom: 8em;
+      background-color: rgb(249, 249, 249);
+  }
+  .review-head{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      line-height: 3.5em;
+      width: 100%;
+      padding: 0 0 1.8em 0;
+      
+  }
+  .review-head  .header{
+      font-size: 2em;
+      font-weight: 700;  
+  }
+  .review-head .follow-up{
+      color: rgb(133, 133, 133);
+      font-size: 1.3em;
+  }
+  .review-grids{
+      display: flex;
+      padding-top: 4.8em;
+      align-content: center;
+      width: 100%;
+      justify-content: center;
+  }
+  .review-card{
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      display: flex;
+      justify-content: center;
+     align-items: center;
+      flex-direction: column;
+      box-sizing: border-box;
+      width: 22em;
+      border-radius: 10px;
+      padding: 2em;
+  }
+  .card-wrapper{
+      width:auto;
+      box-sizing: content-box;
+      
+      display: grid;
+      row-gap: 3em;
+      column-gap: 2em;
+      grid-template-columns: repeat(3,1fr);
+  }
+  .review-card .stars{
+      
+      /* border: 1px solid orange; */
+     display: block;
+     width: 100%;
+     text-align: center;
+     color: orange;
+     font-size: 1.5em;
+     line-height: 1.5em;
+     margin: .5em 0;
+     flex-direction: column;
+     
+  }
+  .review-card .review-content {
+      text-align: center;
+  }
+  .review-card .review-content .review-text-head{
+      font-weight: 700;
+      font-size: 1.1em;
+      line-height: 1.3em;
+      margin-bottom: 1.8em ;
+      
+  }
+  .review-card .review-content .text-para{
+      color: rgb(97, 97, 97);
+      margin-bottom: 1em;
+  }
+  .review-card .review-content .author-review{
+      font-size: .9em;
+      color: rgb(133, 133, 133);
+  }
+
+  /* pre-footer  */
+  .pre-footer{
+      border: 1px solid black;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      background-image: url('https://ali-global-cdn.hellotalk8.com/www/image/footer-promo-bg.jpg?ver=0.1.0&x-oss-process=image/format,webp');
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      padding: 5em;
+  }
+  .top-pre-footer{
+      width: 100%;
+      text-align: center;
+  }
+  .top-pre-footer h2{
+      color: white;
+      font-size: 1.9em;
+      line-height: 2.3em;    
+  }
+  .top-pre-footer p {
+      color: aliceblue;
+      font-size: 1.3em;
+      margin-bottom: 1.5em;
+      font-weight: 500;
+  }
+  
+  .bottom-pre-footer {
+      width: auto;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: .5em;
+      
+      
+  }
+  .bottom-pre-footer  a{
+      text-decoration: none;
+      color: white;
+      border: 1.3px solid white;
+      padding: 1.2em 1.7em;
+      text-align: centers;
+      border-radius: 40px;
+      margin: 0 1em;
+      font-weight: 600;
+      transition: background-color 0.4s ease-out;
+  }
+  .bottom-pre-footer  a:hover{
+      background-color: rgb(84, 199, 80);
+  }
+  /* pre footer ends here */
+
+  /* footer starts here */
+  .footer{
+      width: auto;
+      padding: 7em 25em;
+  }
+  .footer .wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: auto;
+      box-sizing: border-box;
+  }
+  .footer .wrapper ul{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: left;
+      list-style: none;
+  }
+  .left-content{
+      display: flex;
+
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+  }
+  .left-content ul li:first-child{
+      font-size: 1em;
+      text-align: center;
+      color: rgb(133, 133, 133);
+  }
+  .left-content ul li{
+      font-size: 1.3em;
+      margin: 0 .4em;
+      text-align: center;
+  }
+  .right-content ul li {
+      margin: 0 .5em;
+      text-align: center;
   }
 
 
